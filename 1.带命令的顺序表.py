@@ -1,4 +1,5 @@
 class SeqList:
+    import time
     def A(sqlist):
         x = int(input("输入x： "))
         y = int(input("输入y： "))
@@ -23,8 +24,10 @@ class SeqList:
     for p in range(0, comm_count):
         Comm = input("输入方法名： ")
         if Comm == "A":
-            A(sqlist)
+             A(sqlist)
         if Comm == "B":
-            B(sqlist)
+             B(sqlist)
 
     print(sqlist)
+
+    time.sleep(10)
